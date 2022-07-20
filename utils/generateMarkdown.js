@@ -24,7 +24,8 @@ function generateMarkdown(data) {
   * [contributions](#contributions)
   * [tests](#tests)
 
-  ## 
+  ## username
+  ${data.username}
 
 `;
 }
