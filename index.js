@@ -19,7 +19,7 @@ const questions = [
     {
         type: 'input',
         name: 'repository',
-        message: 'What is the name  of your repository?'
+        message: 'Where is your repository located?'
     },
     {
         type: 'input',
@@ -44,7 +44,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributions',
-        message: 'explain how others may contribute to project',
+        message: 'who contributed to this project?',
     },
     {
         type: 'input',

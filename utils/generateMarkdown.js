@@ -18,13 +18,13 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of contents
-  * [Usage](#use)
-  * [Installation](#installs)
+  * [Usage](#usage)
+  * [Installation](#installation)
   * [Contributions](#contributions)
   * [tests](#tests)
   * [License](#licence)
-  * [Links](#username)(#repository)
-  * [contact](#contactData)
+  * [Links](#links)
+  * [contact](#contact)
 
   ## Usage
   ${data.use}
@@ -47,9 +47,6 @@ function generateMarkdown(data) {
 
   # Contact Info
   ${data.contactData}
-
-
-
 `;
 }
 
